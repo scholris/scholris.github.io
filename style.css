@@ -9,7 +9,7 @@
 /* Navbar CSS */
 
 .navbar {
-  margin-top: 1.5%;
+  padding-top: 1.5%;
 }
 
 .navbar-logo {
@@ -38,3 +38,19 @@
     border-radius: 7px;
 }
 
+/* Hero - Section CSS */
+
+.hero-section {
+    margin-top: 100px;
+}
+
+.hero-left {
+    float:left;
+    font-size: 100px;
+    object-fit: contain;
+}
+
+.hero-right {
+    float:right;
+    object-fit: contain;
+}
