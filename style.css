@@ -42,15 +42,47 @@
 
 .hero-section {
     margin-top: 100px;
+    overflow: hidden;
 }
 
 .hero-left {
-    float:left;
-    font-size: 100px;
+    float: left;
+    width: 50%;
+    font-size: 6rem;
+    font-weight: 700;
     object-fit: contain;
+    line-height: 1;
 }
 
 .hero-right {
-    float:right;
+    float: right;
+    width: 50%;
     object-fit: contain;
+    text-align: right;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive Styles for hero -section */
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-left, .hero-right {
+        float: none;
+        width: 100%;
+    }
+
+    .hero-left {
+        margin-bottom: 20px;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
 }
