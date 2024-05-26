@@ -1,0 +1,15 @@
+/* this file contains css for signup page */
+
+
+.navbar-brand-signup {
+    display: flex;
+margin-top: 2rem;
+}
+
+.signup-wrapper {
+    margin: 5rem 10rem;
+    padding: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    /* background-color: azure; */
+}
