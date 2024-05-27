@@ -1,15 +1,34 @@
 /* this file contains css for signup page */
 
-
 .navbar-brand-signup {
-    display: flex;
-margin-top: 2rem;
+  display: flex;
+  margin-top: 1.1rem;
 }
 
 .signup-wrapper {
-    margin: 5rem 10rem;
-    padding: 25px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 7px;
-    /* background-color: azure; */
+  margin: 5rem 10rem;
+  padding: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+.form-control:focus {
+    /* overwriting bs css */
+    box-shadow: none !important;
+}
+
+.form-select:focus {
+    /* overwriting bs css */
+    box-shadow: none !important;
+}
+
+.form-check-input:focus {
+    /* overwriting bs css */
+    box-shadow: none !important;
+}
+
+.form-check-input:checked {
+    /* overwriting bs css */
+    background-color: var(--primary-text-color) !important;
+    border-color: var(--primary-text-color) !important;
 }
