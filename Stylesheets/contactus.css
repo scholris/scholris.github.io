@@ -1,0 +1,28 @@
+/*css of conatct us*/  
+  .contactus-wrapper {
+    margin: 3rem 20rem;
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  .form-control:focus {
+      /* overwriting bs css */
+      box-shadow: none !important;
+  }
+  
+  .form-select:focus {
+      /* overwriting bs css */
+      box-shadow: none !important;
+  }
+  
+  .form-check-input:focus {
+      /* overwriting bs css */
+      box-shadow: none !important;
+  }
+  
+  .form-check-input:checked {
+      /* overwriting bs css */
+      background-color: var(--primary-text-color) !important;
+      border-color: var(--primary-text-color) !important;
+  }

@@ -14,7 +14,7 @@
 
 .form-control:focus {
     /* overwriting bs css */
-    box-shadow: none !important;
+    box-shadow: none !important;s
 }
 
 .form-select:focus {
