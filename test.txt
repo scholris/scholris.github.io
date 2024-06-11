@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="../Images/favicon.svg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="../Stylesheets/variables.css" />
-    <link rel="stylesheet" href="../Stylesheets/std_signup.css" />
-    <link rel="stylesheet" href="../Stylesheets/custom-classes.css" />
-    <link rel="stylesheet" href="../Stylesheets/bootstrap.min.css" />
-    <title>Scholris | Signup as Student</title>
-  </head>
-  <body style="background-color: #f3f3f3; color: var(--primary-color)">
-    <section class="container">
-      <a class="navbar-brand-signup" href="/">
-        <img
-          src="../Images/scholris-dark.png"
-          class="navbar-logo"
-          alt="Scholris"
-          height="50"
-          width="200"
-        />
-      </a>
-      <div class="d-flex justify-content-center align-items-center">
-        <div class="signup-wrapper poppins-medium">
-          <h4 class="d-flex justify-content-center align-items-center mb-5">SignUp</h4>
+<h4 class="d-flex justify-content-center align-items-center mb-5">SignUp</h4>
         <div class="row g-5">
-          <div class="col-lg-6 col-sm-12">
+          <div class="col">
             <h5 class="mb-3">Basic Info</h5>
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
@@ -122,7 +93,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-6 col-sm-12">
+          <div class="col">
             <h5 class="mb-3">Legals</h5>
             <div class="mb-3">
               <label for="document-type" class="form-label"
@@ -224,8 +195,3 @@
             Already a user? <a href="login.html">Log in</a>
           </div>
         </div>
-        </div>
-      </div>
-    </section>
-  </body>
-</html>

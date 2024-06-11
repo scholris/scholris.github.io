@@ -9,7 +9,7 @@
 /* Navbar CSS */
 .navbar {
   /* overwriting bootstrap */
-  background-color: #fff !important;
+  background-color: #f3f3f3 !important;
 }
 
 .nav-link {
