@@ -1,82 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="../Images/favicon.svg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="../Stylesheets/variables.css" />
-    <link rel="stylesheet" href="../Stylesheets/std_signup.css" />
-    <link rel="stylesheet" href="../Stylesheets/custom-classes.css" />
-    <link rel="stylesheet" href="../Stylesheets/bootstrap.min.css" />
-    <title>Scholris | Signup as Student</title>
-  </head>
-  <body style="background-color: #f3f3f3; color: var(--primary-color)">
-    <section class="container">
-      <a class="navbar-brand-signup" href="/">
-        <img
-          src="../Images/scholris-dark.png"
-          class="navbar-logo"
-          alt="Scholris"
-          height="50"
-          width="200"
-        />
-      </a>
-      <div class="d-flex justify-content-center align-items-center">
-        <div class="signup-wrapper poppins-medium">
-          <h4 class="d-flex justify-content-center align-items-center mb-5">SignUp</h4>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../Images/favicon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="../Stylesheets/variables.css" />
+  <link rel="stylesheet" href="../Stylesheets/std_signup.css" />
+  <link rel="stylesheet" href="../Stylesheets/custom-classes.css" />
+  <link rel="stylesheet" href="../Stylesheets/bootstrap.min.css" />
+  <title>Scholris | Signup as Student</title>
+</head>
+
+<body style="background-color: #f3f3f3; color: var(--primary-color)">
+  <section class="container">
+
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="signup-wrapper poppins-medium">
+        <a class="" href="/">
+          <img
+            src="../Images/scholris-dark.png"
+            class="navbar-logo"
+            alt="Scholris"
+            height="50"
+            width="200"
+          />
+        </a>
+        <h4 class="d-flex justify-content-center align-items-center mb-5">SignUp</h4>
         <div class="row g-5">
           <div class="col-lg-6 col-sm-12">
             <h5 class="mb-3">Basic Info</h5>
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="Name"
-              />
+              <input type="text" class="form-control" id="name" placeholder="Name" />
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Email"
-              />
+              <input type="email" class="form-control" id="email" placeholder="Email" />
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">Password</label>
-              <input
-                type="password"
-                class="form-control"
-                id="password"
-                placeholder="Password"
-              />
+              <input type="password" class="form-control" id="password" placeholder="Password" />
             </div>
             <div class="mb-3">
-              <label for="confirm-password" class="form-label"
-                >Confirm Password</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                id="confirm-password"
-                placeholder="Confirm Password"
-              />
+              <label for="confirm-password" class="form-label">Confirm Password</label>
+              <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password" />
             </div>
             <div class="mb-3">
               <label for="dob" class="form-label">Date of Birth</label>
-              <input
-                type="date"
-                class="form-control"
-                id="dob"
-                placeholder="Date of Birth"
-              />
+              <input type="date" class="form-control" id="dob" placeholder="Date of Birth" />
             </div>
             <div class="mb-3">
               <label for="gender" class="form-label">Gender</label>
@@ -88,130 +60,63 @@
               </select>
             </div>
             <div class="mb-3">
-              <label for="permanent-address" class="form-label"
-                >Permanent Address</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="permanent-address"
-                placeholder="Permanent Address"
-              />
+              <label for="permanent-address" class="form-label">Permanent Address</label>
+              <input type="text" class="form-control" id="permanent-address" placeholder="Permanent Address" />
             </div>
             <div class="form-check mb-3">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="same-address"
-              />
-              <label
-                class="form-check-label"
-                for="same-address"
-                >Temporary address same as permanent address?</label
-              >
+              <input class="form-check-input" type="checkbox" id="same-address" />
+              <label class="form-check-label" for="same-address">Temporary address same as permanent address?</label>
             </div>
             <div class="mb-3">
-              <label for="temporary-address" class="form-label"
-                >Temporary Address</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="temporary-address"
-                placeholder="Temporary Address"
-              />
+              <label for="temporary-address" class="form-label">Temporary Address</label>
+              <input type="text" class="form-control" id="temporary-address" placeholder="Temporary Address" />
             </div>
           </div>
           <div class="col-lg-6 col-sm-12">
             <h5 class="mb-3">Legals</h5>
             <div class="mb-3">
-              <label for="document-type" class="form-label"
-                >Type of Document</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="document-type"
-                placeholder="Type of Document"
-              />
+              <label for="document-type" class="form-label">Type of Document</label>
+              <input type="text" class="form-control" id="document-type" placeholder="Type of Document" />
             </div>
             <div class="mb-3">
               <label for="document-no" class="form-label">Document No.</label>
-              <input
-                type="text"
-                class="form-control"
-                id="document-no"
-                placeholder="Document No."
-              />
+              <input type="text" class="form-control" id="document-no" placeholder="Document No." />
             </div>
             <div class="mb-3">
-              <label for="document-upload" class="form-label"
-                >Upload Document</label
-              >
+              <label for="document-upload" class="form-label">Upload Document</label>
               <input type="file" class="form-control" id="document-upload" />
             </div>
 
             <h5 class="mb-3">Academics</h5>
             <div class="mb-3">
-              <label for="gpa" class="form-label"
-                >GPA in Previous Year/Semester</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="gpa"
-                placeholder="GPA in Previous Year/Semester"
-              />
+              <label for="gpa" class="form-label">GPA in Previous Year/Semester</label>
+              <input type="text" class="form-control" id="gpa" placeholder="GPA in Previous Year/Semester" />
             </div>
             <div class="mb-3">
-              <label for="marksheet-upload" class="form-label"
-                >Marksheet of Previous Year/Semester</label
-              >
+              <label for="marksheet-upload" class="form-label">Marksheet of Previous Year/Semester</label>
               <input type="file" class="form-control" id="marksheet-upload" />
             </div>
 
             <h5 class="mb-3">Others</h5>
             <div class="mb-3">
-              <label for="personal-statement" class="form-label"
-                >Personal Statements</label
-              >
+              <label for="personal-statement" class="form-label">Personal Statements</label>
               <input type="file" class="form-control" id="personal-statement" />
             </div>
             <div class="mb-3">
-              <label for="supporting-documents" class="form-label"
-                >Supporting Documents</label
-              >
-              <input
-                type="file"
-                class="form-control"
-                id="supporting-documents"
-              />
+              <label for="supporting-documents" class="form-label">Supporting Documents</label>
+              <input type="file" class="form-control" id="supporting-documents" />
             </div>
             <div class="form-check mb-3">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="military-personal"
-                />
-                <label
-                  class="form-check-label"
-                  for="military-personal"
-                  >Are you son/daughter of military personal (retired/on
-                  duty)?</label
-                >
-              </div>
-              <div class="form-check mb-4">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="government-school"
-                />
-                <label
-                  class="form-check-label"
-                  for="government-school"
-                  >Are/were you student of government school/college?</label
-                >
-              </div>
+              <input class="form-check-input" type="checkbox" id="military-personal" />
+              <label class="form-check-label" for="military-personal">Are you son/daughter of military personal
+                (retired/on
+                duty)?</label>
+            </div>
+            <div class="form-check mb-4">
+              <input class="form-check-input" type="checkbox" id="government-school" />
+              <label class="form-check-label" for="government-school">Are/were you student of government
+                school/college?</label>
+            </div>
           </div>
         </div>
 
@@ -224,8 +129,9 @@
             Already a user? <a href="login.html">Log in</a>
           </div>
         </div>
-        </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>

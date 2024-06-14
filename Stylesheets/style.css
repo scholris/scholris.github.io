@@ -19,6 +19,9 @@
 }
 
 /* Hero - Section CSS */
+.hero-section {
+  text-decoration: none;
+}
 
 .hero-text-left {
   display: flex;
@@ -28,14 +31,14 @@
 }
 
 .hero-text-left-up {
-  font-size: 4.7rem;
+  font-size: 4.5rem;
   font-weight: 700;
   line-height: 1.1;
 }
 
 .hero-text-left-down {
   margin-top: 10px;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
@@ -45,6 +48,62 @@
   align-items: center;
 }
 
+.text-over-buttons {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1200px) {
+
+  .hero-section {
+    margin-top: 50px;
+  }
+
+  .hero-text-left-up {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    margin-top: 50px;
+  }
+
+  .hero-text-left-up {
+    font-size: 2.5rem;
+  }
+
+  .hero-text-left-down{
+   font-size: 1.05rem;
+  }
+
+  .text-over-buttons {
+    font-size: 0.9rem;
+  }
+
+  .listed-scholarships {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    margin-top: 100px;
+  }
+
+  .hero-text-left-up {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    margin-top: 100px;
+  }
+
+  .hero-text-left-up {
+    font-size: 2.5rem;
+  }
+}
 /* css for buttons are there in custom-classes.css */
 
 /* scholarship listings */
@@ -59,10 +118,11 @@
 
 .scholarship-card {
   width: 100%;
-  background-color: aliceblue;
-  border-radius: 7px;
+  background-color: var(--listings-bg-color);
+  border-radius: 10px;
   padding: 20px;
   margin-top: 1.5rem;
+  box-shadow: 0 0 30px -20px #041220;
 }
 
 .card-right {
@@ -109,9 +169,9 @@
 }
 
 .footer-bottom {
-  background-color: #0B3955;
-  color:#fff;
-  display:flex;
+  background-color: #0b3955;
+  color: #fff;
+  display: flex;
   justify-content: center;
   font-size: 14px;
   font-weight: 200;
