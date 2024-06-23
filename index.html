@@ -14,15 +14,17 @@
 
 <body style="background-color: #f3f3f3;">
   <!-- navbar starts -->
-  <nav class="navbar navbar-expand fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/">
         <img src="Images/scholris-dark.png" class="navbar-logo" alt="Scholris" height="30" width="130" />
       </a>
-      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button> -->
-      <div class="collapse navbar-collapse" id="navbarNav">
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
           <li class="nav-item">
@@ -43,7 +45,7 @@
   <!-- hero section starts -->
   <section class="container hero-section">
     <div class="row">
-      <div class="col hero-text-left">
+      <div class="col-sm-12 col-md-6 hero-text-left">
         <h2 class="hero-text-left-up">
           Easily Discover, Apply & Manage Scholarships.
         </h2>
@@ -56,7 +58,7 @@
           <a href="#" class="primary-btn-skeleton"> Organization </a>
         </div>
       </div>
-      <div class="col">
+      <div class="col-sm-12 col-md-6">
         <img src="/Images/hero-img.png" class="img-fluid" alt="hero-img" />
       </div>
     </div>
@@ -176,7 +178,7 @@
     <div class="container">
       <div class="footer-wrapper">
         <div class="row">
-          <div class="col footer-section1">
+          <div class="col-sm-12 col-md-3 footer-section">
             <img src="Images/scholris-light.png" class="navbar-logo" alt="Scholris" height="30" width="130" />
             <div class="footer-head">Genesis Inc.</div>
             <div class="footer-body">
@@ -184,31 +186,32 @@
               management.
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm-12 col-md-3">
             <div class="footer-head">Quick Links</div>
             <div class="footer-body"><a href="#">Home</a></div>
             <div class="footer-body"><a href="#">Scholarships</a></div>
             <div class="footer-body"><a href="#">About Us</a></div>
             <div class="footer-body"><a href="#">Contact Us</a></div>
           </div>
-          <div class="col">
+          <div class="col-sm-12 col-md-3">
             <div class="footer-head">Help</div>
             <div class="footer-body"><a href="#">How to use?</a></div>
             <div class="footer-body"><a href="#">Privacy Policy</a></div>
             <div class="footer-body"><a href="#">FAQ</a></div>
           </div>
-          <div class="col">
-            <div class="footer-body"><a href="#"><i class="bi bi-geo-alt-fill"></i> Kathmandu, Nepal</a></div>
+          <div class="col-sm-12 col-md-3">
+            <div class="footer-head">Contacts</div>
+            <div class="footer-body"><a href="#" style="text-wrap: nowrap;"><i class="bi bi-geo-alt-fill"></i> Kathmandu, Nepal</a></div>
             <div class="footer-body"><a href="#"><i class="bi bi-envelope"></i> info@genesis.com</a></div>
 
             <div class="footer-socials">
-              <div class="footer-body">
+              <div class="footer-social-icon">
                 <a href="#"><i class="bi bi-facebook"></i></a>
               </div>
-              <div class="footer-body">
+              <div class="footer-social-icon">
                 <a href="#"><i class="bi bi-instagram"></i></i></a>
               </div>
-              <div class="footer-body">
+              <div class="footer-social-icon">
                 <a href="#"><i class="bi bi-twitter-x"></i></a>
               </div>
             </div>
@@ -220,6 +223,10 @@
   <div class="footer-bottom">
     &copy; 2024 Genesis Inc. All rights reserved.
   </div>
+ 
 </body>
-
+<script src="Scripts/navbar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"></script>
 </html>

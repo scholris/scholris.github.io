@@ -79,3 +79,11 @@
   color: #fff;
 }
 
+@media (max-width: 992px) {
+  .card-btn-filled{
+    margin: 15px 0 0 0;
+  }
+  .card-btn-skeleton{
+    margin: 15px 0 0 0;
+  }
+}
