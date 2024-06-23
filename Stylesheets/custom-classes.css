@@ -79,11 +79,26 @@
   color: #fff;
 }
 
+/* navbar btn */
+
+.navbar-btn {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: 2px solid var(--primary-btn-color) !important;
+  background-color: var(--primary-btn-color) !important;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 2px 5px !important;
+  margin: 5px !important;
+  border-radius: 7px;
+}
+
 @media (max-width: 992px) {
-  .card-btn-filled{
+  .card-btn-filled {
     margin: 15px 0 0 0;
   }
-  .card-btn-skeleton{
+  .card-btn-skeleton {
     margin: 15px 0 0 0;
   }
 }
