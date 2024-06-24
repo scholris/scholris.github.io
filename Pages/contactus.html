@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../Images/favicon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="../Stylesheets/variables.css" />
+  <link rel="stylesheet" href="../Stylesheets/contactus.css" />
+  <link rel="stylesheet" href="../Stylesheets/custom-classes.css" />
+  <link rel="stylesheet" href="../Stylesheets/bootstrap.min.css" />
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <!--nav bar-->
+  <nav class="navbar navbar-expand fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="../Images/scholris-dark.png" class="navbar-logo" alt="Scholris" height="30" width="130" />
+      </a>
+      <!--button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button-->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Scholarships</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link navbar-btn">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <!--navbar-->
+
+  <div class="container mt-5 pt-5">
+    <!--row-->
+    <div class="row">
+      <!--left column-->
+      <div class="col">
+        <h1 class="d-flex justify-content-left align-items-left mb-2">Contact Us</h1>
+        <p class="d-flex justify-content-left align-items-left mb-2">Emai,call,or complete tht</p>
+      </div>
+<!--left column ends-->
+<!--right column-->
+      <div class="col mt-3">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="mb-3">
+            <label for="contact" class="form-label">Contact No.</label>
+            <input type="text" class="form-control" id="contact" name="contact" placeholder="Contact No." required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </div>
+          <!--right column ends-->
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
