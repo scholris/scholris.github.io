@@ -1,30 +1,23 @@
-/*css of conatct us*/  
-.contactus-wrapper {
-    margin: 3rem 20rem;
-    padding: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-  }
-  
-  .form-control:focus {
-      /* overwriting bs css */
-      box-shadow: none !important;
-  }
-  
-  .form-select:focus {
-      /* overwriting bs css */
-      box-shadow: none !important;
-  }
-  
-  .form-check-input:focus {
-      /* overwriting bs css */
-      box-shadow: none !important;
-  }
-  
-  .form-check-input:checked {
-      /* overwriting bs css */
-      background-color: var(--primary-text-color) !important;
-      border-color: var(--primary-text-color) !important;
-  }
-  
-  
+.nav-link {
+  /* overwriting bootstrap */
+  color: var(--primary-color) !important;
+  font-weight: 600 !important;
+}
+
+.left-column-text-top{
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+
+.left-column-after-heading{
+  text-wrap: nowrap;
+}
+
+.right-column{
+  margin: 1rem 0;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
