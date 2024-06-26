@@ -9,26 +9,35 @@
   <link rel="stylesheet" href="../Stylesheets/contactus.css" />
   <link rel="stylesheet" href="../Stylesheets/custom-classes.css" />
   <link rel="stylesheet" href="../Stylesheets/bootstrap.min.css" />
+  <link rel="stylesheet" href="../Stylesheets/style.css" />
   <title>Contact Us</title>
 </head>
 
 <body>
   <!--nav bar-->
-  <nav class="navbar navbar-expand fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="../Images/scholris-dark.png" class="navbar-logo" alt="Scholris" height="30" width="130" />
+        <img src="../Images/scholris-dark.png" class="navbar-logo" alt="Scholris" height="30" width="130"/>
       </a>
-      <!--button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button-->
-      <div class="collapse navbar-collapse" id="navbarNav">
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Scholarships</a></li>
+          <li class="nav-item">
+            <a href="#scholarships" class="nav-link">Scholarships</a>
+          </li>
           <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-          <li class="nav-item"><a href="#" class="nav-link navbar-btn">Login</a></li>
+          <li class="nav-item">
+            <a href="Pages/contactus.html" class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="Pages/login.html" class="nav-link navbar-btn">Login</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -41,14 +50,10 @@
       <!--left column-->
       <div class=" col left-column">
         <h1 class="left-column-text-top ">Contact Us</h1>
-        <p class="left-column-after-heading mt-3">Email, call, or complete the form to learn how <br>
-          Scholris can solve your messaging problem</p>
-        <div class="contact-info">
-          <h4 class="contact-details">Our Location</h4>
-          <a href="https://maps.app.goo.gl/Z159VYp9enDvhh2B8">Kathmandu, Nepal</a><br>
-          <h4 class="contact-details">Email Address</h4>
-          <a href="#">info@genesis.com</a>
-        </div>
+        <p class="left-column-after-heading mt-3">Email, call, or complete the form to learn how
+          Scholris can solve your messaging problem</p> 
+          <div class="contact-email"><a href="#">info@genesis.com</a></div>
+
       </div>
 <!--left column ends-->
 <!--right column-->
