@@ -1,16 +1,7 @@
-.nav-link {
-  /* overwriting bootstrap */
-  color: var(--primary-color) !important;
-  font-weight: 600 !important;
-}
 
 .left-column-text-top{
   font-size: 3rem;
   margin-top: 5rem;
-}
-
-.left-column-after-heading{
-  text-wrap: nowrap;
 }
 
 .right-column{
@@ -21,3 +12,6 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
+.contact-details{
+  margin-top: 1.5rem;
+}
