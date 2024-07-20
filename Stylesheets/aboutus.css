@@ -35,3 +35,29 @@
   .navbar-btn:hover {
     background-color: #0056b3; /* Update with your desired hover color */
   }  
+
+  .aboutus-box {
+    border: 2px solid rgb(204, 204, 204); /* Border around the box */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px auto; /* Center the box */
+    width: 60%; /* Box width */
+    background-color: #f9f9f9; /* Background color */
+    margin-left: 0px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ,transform 0.3s;
+    
+  }
+
+  .aboutus-box h1 {
+    text-align: center; /* Center the heading */
+  }
+
+  .aboutus-box p {
+    text-align: justify; /* Justify text */
+  }
+   .aboutus-box:hover{
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(15px);
+  
+
+   }
