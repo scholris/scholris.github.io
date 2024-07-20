@@ -10,9 +10,29 @@
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  line-height: 1.5;
+  line-height: 2;
 }
 
 .contact-details{
   margin-top: 1.5rem;
+}
+.form-control:focus {
+  /* overwriting bs css */
+  box-shadow: none !important;
+}
+
+.form-select:focus {
+  /* overwriting bs css */
+  box-shadow: none !important;
+}
+
+.form-check-input:focus {
+  /* overwriting bs css */
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  /* overwriting bs css */
+  background-color: var(--primary-text-color) !important;
+  border-color: var(--primary-text-color) !important;
 }
