@@ -114,20 +114,16 @@
   font-size: 16px;
 }
 
-/* footer css */
-
+/* Footer Styles */
 .cc-footer {
   background-color: var(--primary-color);
   color: #fff;
 }
 
-/* .footer-section1 {
-  font-weight: 200;
-} */
-
 .footer-wrapper {
   padding: 15px;
 }
+
 .footer-head {
   font-weight: 400;
   margin-top: 10px;
@@ -138,20 +134,19 @@
   margin-top: 5px;
   line-height: 1.1;
   font-weight: 200;
-  /* text-wrap: nowrap; */
 }
 
 .footer-body a {
   text-decoration: none;
   color: #fff;
-  /* margin: 0 10px; */
 }
+
 .footer-socials {
   display: flex;
   margin-top: 15px;
 }
 
-.footer-social-icon a{
+.footer-social-icon a {
   text-decoration: none;
   color: #fff;
   margin: 0 10px;
@@ -164,6 +159,7 @@
   justify-content: center;
   font-size: 14px;
   font-weight: 200;
+  padding: 10px 0;
 }
 
 /* media queries */

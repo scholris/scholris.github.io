@@ -1,63 +1,51 @@
-.nav-link {
-    /* overwriting bootstrap */
-    color: var(--primary-color) !important;
-    font-weight: 600 !important;
-  }
-  h1 {
-    color: #333;
-    text-align: center;
-  }
+.about-us-main-text {
+  margin-top: 100px;
+  font-size: 2.5rem;
+  color: var(--primary-text-color);
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
 
-  p {
-    text-align: justify;
+.about-us-sub-text {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.about-us-img {
+  width: 50%;
+  height: auto;
+}
+
+.about-us-wrapper {
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .about-us-main-text {
+    font-size: 2rem;
   }
+}
 
-  .navbar {
-    background-color: #fff; /* Update with your desired color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Update with your desired box-shadow */
+@media (min-width: 992px) {
+  .about-us-wrapper {
+    margin-bottom: 150px;
   }
+}
 
-  .navbar-brand img {
-    max-height: 30px; /* Update with your desired height */
+@media (min-width: 768px) {
+  .about-us-wrapper {
+    margin-bottom: 100px;
   }
+}
 
-  .navbar-nav .nav-item {
-    margin-right: 10px;
-  }
-
-  .navbar-btn {
-    background-color: #007bff; /* Update with your desired button color */
-    color: #fff; /* Update with your desired button text color */
-    padding: 8px 16px;
-    border-radius: 4px;
-  }
-
-  .navbar-btn:hover {
-    background-color: #0056b3; /* Update with your desired hover color */
-  }  
-
-  .aboutus-box {
-    border: 2px solid rgb(204, 204, 204); /* Border around the box */
-    padding: 20px; /* Padding inside the box */
-    margin: 20px auto; /* Center the box */
-    width: 60%; /* Box width */
-    background-color: #f9f9f9; /* Background color */
-    margin-left: 0px;
-    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ,transform 0.3s;
-    
+@media (max-width: 576px) {
+  .about-us-main-text {
+    font-size: 1.75rem;
   }
 
-  .aboutus-box h1 {
-    text-align: center; /* Center the heading */
+  .about-us-img {
+    width: 75%;
   }
-
-  .aboutus-box p {
-    text-align: justify; /* Justify text */
-  }
-   .aboutus-box:hover{
-    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.1);
-    transform: translateY(15px);
-  
-
-   }
+}
