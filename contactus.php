@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="../Images/favicon.svg" type="image/x-icon" />
-  <link rel="stylesheet" href="../Stylesheets/variables.css" />
-  <link rel="stylesheet" href="../Stylesheets/style.css" />
-  <link rel="stylesheet" href="../Stylesheets/custom-classes.css" />
-  <link rel="stylesheet" href="../Stylesheets/bootstrap.min.css" />
-  <link rel="stylesheet" href="../Stylesheets/contactus.css" />
+  <link rel="shortcut icon" href="Images/favicon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="Stylesheets/variables.css" />
+  <link rel="stylesheet" href="Stylesheets/style.css" />
+  <link rel="stylesheet" href="Stylesheets/custom-classes.css" />
+  <link rel="stylesheet" href="Stylesheets/bootstrap.min.css" />
+  <link rel="stylesheet" href="Stylesheets/contactus.css" />
   <title>Contact Us</title>
 </head>
 
@@ -18,7 +18,7 @@
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="../Images/scholris-dark.png" class="navbar-logo" alt="Scholris" height="30" width="130" />
+        <img src="Images/scholris-dark.png" class="navbar-logo" alt="Scholris" height="30" width="130" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,16 +27,16 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
           <li class="nav-item">
-            <a href="../index.html" class="nav-link">Scholarships</a>
+            <a href="index.php" class="nav-link">Scholarships</a>
           </li>
-          <li class="nav-item"><a href="aboutus.html" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="aboutus.php" class="nav-link">About Us</a></li>
           <li class="nav-item">
             <a href="#" class="nav-link">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a href="login.html" class="nav-link navbar-btn">Login</a>
+            <a href="login.php" class="nav-link navbar-btn">Login</a>
           </li>
         </ul>
       </div>
@@ -106,7 +106,7 @@
       <div class="footer-wrapper">
         <div class="row">
           <div class="col-sm-12 col-md-3 footer-section">
-            <img src="../Images/scholris-light.png" class="navbar-logo" alt="Scholris" height="30" width="130" />
+            <img src="Images/scholris-light.png" class="navbar-logo" alt="Scholris" height="30" width="130" />
             <div class="footer-head">Genesis Inc.</div>
             <div class="footer-body">
               Schorlris is the ultimate platform for seamless scholarship
@@ -115,10 +115,10 @@
           </div>
           <div class="col-sm-12 col-md-3">
             <div class="footer-head">Quick Links</div>
-            <div class="footer-body"><a href="../index.html">Home</a></div>
-            <div class="footer-body"><a href="../index.html">Scholarships</a></div>
-            <div class="footer-body"><a href="aboutus.html">About Us</a></div>
-            <div class="footer-body"><a href="contactus.html">Contact Us</a></div>
+            <div class="footer-body"><a href="index.php">Home</a></div>
+            <div class="footer-body"><a href="index.php">Scholarships</a></div>
+            <div class="footer-body"><a href="aboutus.php">About Us</a></div>
+            <div class="footer-body"><a href="contactus.php">Contact Us</a></div>
           </div>
           <div class="col-sm-12 col-md-3">
             <div class="footer-head">Help</div>
@@ -152,8 +152,8 @@
     &copy; 2024 Genesis Inc. All rights reserved.
   </div>
   <!-- footer ends -->
-  <script src="../Scripts/bootstrap.bundle.min.js"></script>
+  <script src="Scripts/bootstrap.bundle.min.js"></script>
 </body>
-<script src="../Scripts/navbar.js"></script>
+<script src="Scripts/navbar.js"></script>
 
 </html>
