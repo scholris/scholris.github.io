@@ -101,6 +101,16 @@ $applications = $stmt->fetchAll();
     <div class="container">
         <h1 class="mt-4">Organization Dashboard</h1>
 
+        <!-- Back to Home Button -->
+        <a href="index.php" class="btn btn-secondary mb-4">Back to Home</a>
+
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <h1>Organization Dashboard</h1>
+            
+            <!-- Logout Button -->
+            <a href="logout.php" class="btn btn-danger">Logout</a>
+        </div>
+
         <!-- Add Scholarship Form -->
         <h2 class="mt-4">Add Scholarship</h2>
         <form method="POST">

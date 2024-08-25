@@ -75,6 +75,7 @@ if (isset($_POST['logout'])) {
 
         <!-- Logout Button -->
         <form method="POST" class="mb-4">
+        <a href="index.php" class="btn btn-secondary">Back to Home</a>
             <button type="submit" class="btn btn-danger" name="logout">Logout</button>
         </form>
 

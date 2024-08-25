@@ -150,7 +150,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             </div>
                             <div class="mb-3">
                                 <label for="document-upload" class="form-label">Document Upload</label>
-                                <input type="file" class="form-control" id="document-upload" name="docup" required />
+                                <input type="file" class="form-control" id="document-upload" name="docup"  accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required />
                             </div>
                             <h5 class="mt-5 mb-3">Academics</h5>
                             <div class="mb-3">
@@ -159,15 +159,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             </div>
                             <div class="mb-3">
                                 <label for="marksheet-upload" class="form-label">Marksheet Upload</label>
-                                <input type="file" class="form-control" id="marksheet-upload" name="marksheet-upload" required />
+                                <input type="file" class="form-control" id="marksheet-upload" name="marksheet-upload" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required />
                             </div>
                             <div class="mb-3">
                                 <label for="personal-statement" class="form-label">Personal Statement</label>
-                                <input type="file" class="form-control" id="personal-statement" name="personal-statement" required />
+                                <input type="file" class="form-control" id="personal-statement" name="personal-statement" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required />
                             </div>
                             <div class="mb-3">
                                 <label for="supporting-documents" class="form-label">Supporting Documents</label>
-                                <input type="file" class="form-control" id="supporting-documents" name="supporting-documents" required />
+                                <input type="file" class="form-control" id="supporting-documents" name="supporting-documents" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required />
                             </div>
                             <div class="form-check mb-3">
                                 <input class="form-check-input" type="checkbox" id="military-personal" name="military-personal" />
